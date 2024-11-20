@@ -35,16 +35,6 @@ module q_alu(
 
 endmodule
 
-
-
-
-
-
-
-
-
-
-
 module rev_mul(x,y,z);
 input [3:0] x,y;
 output [7:0] z;

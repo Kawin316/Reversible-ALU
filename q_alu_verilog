@@ -124,8 +124,8 @@ module n_bit_fa(a,b,cin,sum,cout);
  
 module fa( input A,B,Cin, output SUM,Cout 
 );
-Peres P1(A,B,0,G1,G2,G3);
-Peres P2(G2,Cin,G3,G4,SUM,Cout);
+peres P1(A,B,0,G1,G2,G3);
+peres P2(G2,Cin,G3,G4,SUM,Cout);
 endmodule
 
 
